@@ -27,7 +27,7 @@ If you don't have npm you can easily install it from [npm website](https://www.n
 Well, There is two example to Send SMS by node below.
 
 ```node
-var KavenegarApiAsync = require("kavenegar_api_async");
+var KavenegarApiAsync = require("kavenegar");
 const main = async () => {
     var kp = new KavenegarApiAsync({
         apikey: " { Your Api Key }",
@@ -79,7 +79,7 @@ sample output
 ```
 
 ```node
-var KavenegarApiAsync = require("kavenegar_api_async");
+var KavenegarApiAsync = require("kavenegar");
 const main = async () => {
     var kp = new KavenegarApiAsync({
         apikey: " { Your Api Key }",
