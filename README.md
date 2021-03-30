@@ -91,6 +91,7 @@ const main = async () => {
     });
     console.log(result);
 };
+main();
 
 /*
 sample output
