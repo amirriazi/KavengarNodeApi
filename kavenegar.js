@@ -52,53 +52,51 @@ class KavenegarApiAsync {
         return await this._request("sms", "sendarray", data);
     }
 
-    async Status(data, callback) {
-        return await this._request("sms", "status", data, callback);
+    async Status(data) {
+        return await this._request("sms", "status", data);
     }
-    async StatusLocalMessageid(data, callback) {
-        return await this._request("sms", "statuslocalmessageid", data, callback);
+    async StatusLocalMessageid(data) {
+        return await this._request("sms", "statuslocalmessageid", data);
     }
-    async Select(data, callback) {
-        return await this._request("sms", "select", data, callback);
+    async Select(data) {
+        return await this._request("sms", "select", data);
     }
-    async SelectOutbox(data, callback) {
-        return await this._request("sms", "selectoutbox", data, callback);
+    async SelectOutbox(data) {
+        return await this._request("sms", "selectoutbox", data);
     }
-    async LatestOutbox(data, callback) {
-        return await this._request("sms", "latestoutbox", data, callback);
+    async LatestOutbox(data) {
+        return await this._request("sms", "latestoutbox", data);
     }
-    async CountOutbox(data, callback) {
-        return await this._request("sms", "countoutbox", data, callback);
+    async CountOutbox(data) {
+        return await this._request("sms", "countoutbox", data);
     }
-    async Cancel(data, callback) {
-        return await this._request("sms", "cancel", data, callback);
+    async Cancel(data) {
+        return await this._request("sms", "cancel", data);
     }
-    async Receive(data, callback) {
-        return await this._request("sms", "receive", data, callback);
+    async Receive(data) {
+        return await this._request("sms", "receive", data);
     }
-    async CountInbox(data, callback) {
-        return await this._request("sms", "countinbox", data, callback);
+    async CountInbox(data) {
+        return await this._request("sms", "countinbox", data);
     }
-    async CountPostalCode(data, callback) {
-        return await this._request("sms", "countpostalcode", data, callback);
+    async CountPostalCode(data) {
+        return await this._request("sms", "countpostalcode", data);
     }
-    async SendByPostalCode(data, callback) {
-        return await this._request("sms", "sendbypostalcode", data, callback);
+    async SendByPostalCode(data) {
+        return await this._request("sms", "sendbypostalcode", data);
     }
-    async VerifyLookup(data, callback) {
-        return await this._request("verify", "lookup", data, callback);
+    async VerifyLookup(data) {
+        return await this._request("verify", "lookup", data);
     }
-    async AccountInfo(data, callback) {
-        return await this._request("account", "info", data, callback);
+    async AccountInfo(data) {
+        return await this._request("account", "info", data);
     }
-    async AccountConfig(data, callback) {
-        return await this._request("account", "config", data, callback);
+    async AccountConfig(data) {
+        return await this._request("account", "config", data);
     }
-    async CallMakeTTS(data, callback) {
-        return await this._request("call", "maketts", data, callback);
+    async CallMakeTTS(data) {
+        return await this._request("call", "maketts", data);
     }
-
-    // And Other methods refactor in the same way!
 }
 
 module.exports = KavenegarApiAsync;
